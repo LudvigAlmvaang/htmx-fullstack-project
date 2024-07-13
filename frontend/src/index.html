@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="en" style="min-height: 100vh;">
+
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui, viewport-fit=cover" />
     <title>HTMX + Bootstrap 5</title>
     <link rel="stylesheet" href="scss/main.scss">
     <script type="module" src="js/main.js"></script>
@@ -45,13 +46,14 @@
       </div>
     </header>
     <main role="main">
-        <div class="container my-5">
-            <h1>Hello, world!</h1>
-            <article class="col-lg-8 px-0">
-              <p class="fs-5">This is an attempt in recreating my own personal web app, but using HTMX and Bootstrap 5 instead of React and TailwindCSS.</p>
-              <hr class="col-1 my-4">
-            </article>
-          </div>
+      <div class="container my-5">
+        <h1>Hello, world!</h1>
+        <article class="col-lg-8 px-0">
+          <p class="fs-5">This is an attempt in recreating my own personal web app, but using HTMX and Bootstrap 5 instead of React and TailwindCSS.</p>
+          <hr class="col-1 my-4">
+        </article>
+      </div>
+      <div class="container my-5" hx-get="/:5001" hx-swap="innerHTML">Loading...</div>
     </main>
     <footer class="mt-auto">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="min-height: 6rem;">
