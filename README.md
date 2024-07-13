@@ -1,5 +1,5 @@
 # htmx-fullstack-project
- In this project I will be using express.js, htmx and bootstrap to create an interesting web application.
+ In this project I will be using node.js, express.js, htmx and bootstrap to create an interesting web application
 
 Project was built using Node version:
 ```bash
