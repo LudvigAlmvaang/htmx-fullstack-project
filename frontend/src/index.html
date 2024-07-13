@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en" style="min-height: 100vh;">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTMX + Bootstrap 5</title>
+    <link rel="stylesheet" href="scss/main.scss">
+    <script type="module" src="js/main.js"></script>
+    <meta name="description" content="A Front-end demo by Ludvig Almvång">
+
+    <meta property="og:title" content="HTMX + Bootstrap 5">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com">
+    <meta property="og:image" content="./assets/logo.svg">
+    <meta property="og:image:alt" content="logo">
+
+    <link rel="icon" href="/src/assets/logo.svg" type="image/svg+xml">
+  </head>
+  <body class="d-flex flex-column vh-100">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-navbar" style="height: 6rem;">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          </div>
+      </nav>
+      <!-- Offcanvas navigation bar -->
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            </ul>
+        </div>
+      </div>
+    </header>
+    <main role="main">
+        <div class="container my-5">
+            <h1>Hello, world!</h1>
+            <article class="col-lg-8 px-0">
+              <p class="fs-5">This is an attempt in recreating my own personal web app, but using HTMX and Bootstrap 5 instead of React and TailwindCSS.</p>
+              <hr class="col-1 my-4">
+            </article>
+          </div>
+    </main>
+    <footer class="mt-auto">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="min-height: 6rem;">
+          <div class="container">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li><a class="nav-link" href="https://www.linkedin.com/in/ludvig-almvaang/" target="_blank">LinkedIn</a></li>
+                <li><a class="nav-link" href="https://github.com/LudvigAlmvaang" target="_blank">GitHub</a></li>
+                <li><a class="nav-link" href="https://google.com/" target="_blank">Email</a></li>
+            </ul>
+          </div>
+        </nav>
+    </footer>
+  </body>
+</html>

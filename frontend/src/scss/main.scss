@@ -1,0 +1,6 @@
+// custom variables
+//$primary: #c29938; 
+
+// to compile run "sass styles.sass ./src/styles.css"
+// however, parcel is setup to automatically compile sass
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"

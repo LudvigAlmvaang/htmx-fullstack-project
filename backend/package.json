@@ -1,0 +1,14 @@
+{
+  "name": "htmx-backend",
+  "version": "0.0.1 (Alpha)",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ludvig S.W. Almvång",
+  "license": "Apache-2.0",
+  "description": "HTMX + Express demo",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
